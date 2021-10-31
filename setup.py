@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 NAME = 'pymeet'
-VERSION = '0.0.1'
+VERSION = '0.0.8'
 URL = 'https://github.com/SSripilaipong/pymeet'
 LICENSE = 'MIT'
 AUTHOR = 'SSripilaipong'
@@ -16,7 +16,7 @@ CONSOLE_SCRIPT = 'pymeet=pymeet.cli:main'
 setup(
     name=NAME,
     version=VERSION,
-    packages=setuptools.find_packages(),
+    packages=[p for p in setuptools.find_packages() if p.startswith('pymeet.') or p == 'pymeet'],
     url=URL,
     license=LICENSE,
     author=AUTHOR,
@@ -28,5 +28,6 @@ setup(
     classifiers=[],
     entry_points={
         'console_scripts': [CONSOLE_SCRIPT],
-    }
+    },
+    include_package_data=True,
 )

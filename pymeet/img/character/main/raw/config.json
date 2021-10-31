@@ -1,0 +1,124 @@
+{
+  "images": {
+    "back-idle.png": {
+      "row": 0,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "back-walk-1.png": {
+      "row": 0,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "back-walk-2.png": {
+      "row": 0,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "back-walk-3.png": {
+      "row": 0,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "back-walk-4.png": {
+      "row": 0,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "front-idle.png": {
+      "row": 1,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "front-walk-1.png": {
+      "row": 1,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "front-walk-2.png": {
+      "row": 1,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "front-walk-3.png": {
+      "row": 1,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "front-walk-4.png": {
+      "row": 1,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "left-idle.png": {
+      "row": 2,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "left-walk-1.png": {
+      "row": 2,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "left-walk-2.png": {
+      "row": 2,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "left-walk-3.png": {
+      "row": 2,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "left-walk-4.png": {
+      "row": 2,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "right-idle.png": {
+      "row": 3,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "right-walk-1.png": {
+      "row": 3,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "right-walk-2.png": {
+      "row": 3,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "right-walk-3.png": {
+      "row": 3,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    },
+    "right-walk-4.png": {
+      "row": 3,
+      "scale": 0.3,
+      "dimension": "1500,1500",
+      "center": "750,1430"
+    }
+  }
+}

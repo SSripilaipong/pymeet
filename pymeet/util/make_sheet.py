@@ -104,5 +104,5 @@ def make_sprite_sheet(raw_path, config_path, sheet_path, mapper_path):
 
 
 if __name__ == '__main__':
-    make_sprite_sheet('pymeet/img/character/main/raw', 'pymeet/img/character/main/raw/config.json',
-                      'pymeet/img/character/main/sheet.png', 'pymeet/img/character/main/mapper.json')
+    make_sprite_sheet('pymeet/img/main/raw', 'pymeet/img/main/raw/config.json',
+                      'pymeet/img/main/sheet.png', 'pymeet/img/main/mapper.json')

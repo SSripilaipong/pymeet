@@ -72,4 +72,4 @@ class SpriteSheet:
         destination.blit(self.sheet, [*position, *config.dimension], pg.Rect(*config.position, *config.dimension))
 
 
-character_sheet: SpriteSheet = SpriteSheet(os.path.join(img_dir, 'character/main'))
+character_sheet: SpriteSheet = SpriteSheet(os.path.join(img_dir, 'main'))

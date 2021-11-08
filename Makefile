@@ -1,5 +1,5 @@
-character-sheet:
-	python -m pymeet.util.character_sheet
+sheet:
+	python -m pymeet.util.make_sheet
 
 start:
 	python cli.py start

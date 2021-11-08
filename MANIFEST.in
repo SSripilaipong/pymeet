@@ -1,2 +1,2 @@
 include requirements.txt
-include pymeet/img/character/main/*
+include pymeet/img/main/*

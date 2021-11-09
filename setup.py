@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 NAME = 'pymeet'
-VERSION = '0.0.8'
+VERSION = '0.0.9'
 URL = 'https://github.com/SSripilaipong/pymeet'
 LICENSE = 'MIT'
 AUTHOR = 'SSripilaipong'

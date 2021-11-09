@@ -4,19 +4,19 @@ from pygame import Surface
 from pymeet.core import usecase
 
 from .base import Renderer, CharacterRenderer, GroundRenderer
-from .sheet import character_sheet
-from .main_character import MainCharacterRenderer
-from .grid_ground import GridGroundRenderer
+from .sheet import sheet
+from .character.main import MainCharacterRenderer
+from .ground.random import RandomTileGroundRenderer
 
 
 class GameServerSceneRenderer(Renderer):
     def __init__(self, dimension: Tuple[int, int]):
         self._dimension: Tuple[int, int] = dimension
-        character_sheet.scale(0.25)
+        sheet.scale(0.25)
 
         self._screen_center = (self._dimension[0]/2, self._dimension[1]/2)
         self._main_character_renderer: CharacterRenderer = MainCharacterRenderer(self._screen_center)
-        self._ground_renderer: GroundRenderer = GridGroundRenderer(
+        self._ground_renderer: GroundRenderer = RandomTileGroundRenderer(
             dimension=self._dimension,
             screen_center=self._screen_center,
         )

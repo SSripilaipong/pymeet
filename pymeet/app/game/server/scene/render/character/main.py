@@ -6,8 +6,8 @@ from pymeet.core.game.character.direction import Direction
 from pymeet.core.game.character.walk.state import WalkState
 from pymeet.core.game.character.idle.state import IdleState
 
-from .base import CharacterRenderer
-from .sheet import character_sheet
+from pymeet.app.game.server.scene.render.base import CharacterRenderer
+from pymeet.app.game.server.scene.render.sheet import sheet
 
 
 class MainCharacterRenderer(CharacterRenderer):
@@ -30,7 +30,7 @@ class MainCharacterRenderer(CharacterRenderer):
         self._render_from_key(screen, key)
 
     def _render_from_key(self, screen: Surface, key: str):
-        character_sheet.render_at_center(key, screen, self._screen_center)
+        sheet.render_at_center(key, screen, self._screen_center)
 
     def _get_walk_render_key(self, character: CharacterView) -> str:
         side = self._heading_side(character)

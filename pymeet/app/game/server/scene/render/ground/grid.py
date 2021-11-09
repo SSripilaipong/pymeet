@@ -3,7 +3,7 @@ from math import floor
 import pygame as pg
 from pygame import Surface
 
-from .base import GroundRenderer
+from pymeet.app.game.server.scene.render.base import GroundRenderer
 
 
 def unit_to_pixel(position: Tuple[float, float]) -> Tuple[float, float]:

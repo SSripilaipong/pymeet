@@ -6,7 +6,7 @@ from pymeet.core import usecase
 from pymeet.app.base import AppScene
 from pymeet.app.app import PygameApp
 
-from .renderer import GameServerSceneRenderer
+from .render import GameServerSceneRenderer
 
 
 class GameServerScene(AppScene):

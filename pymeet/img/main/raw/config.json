@@ -122,37 +122,37 @@
     },
     "background-1.png": {
       "row": 4,
-      "scale": 0.3,
+      "scale": 0.6,
       "dimension": "1500,1500",
       "center": "750,750"
     },
     "background-2.png": {
       "row": 4,
-      "scale": 0.3,
+      "scale": 0.6,
       "dimension": "1500,1500",
       "center": "750,750"
     },
     "background-3.png": {
       "row": 4,
-      "scale": 0.3,
+      "scale": 0.6,
       "dimension": "1500,1500",
       "center": "750,750"
     },
     "background-4.png": {
       "row": 4,
-      "scale": 0.3,
+      "scale": 0.6,
       "dimension": "1500,1500",
       "center": "750,750"
     },
     "background-5.png": {
       "row": 4,
-      "scale": 0.3,
+      "scale": 0.6,
       "dimension": "1500,1500",
       "center": "750,750"
     },
     "background-6.png": {
       "row": 4,
-      "scale": 0.3,
+      "scale": 0.6,
       "dimension": "1500,1500",
       "center": "750,750"
     }
